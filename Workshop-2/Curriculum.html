@@ -1,53 +1,103 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Currículum</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Currículum</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            max-width: 900px;
+            margin-bottom: 50px;
+        }
+
+        .section-title {
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-title {
+            color: #007bff;
+        }
+
+        .card-text {
+            color: #6c757d;
+        }
+    </style>
 </head>
+
 <body>
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-md-6">
-        <h1 class="mb-4">Carlos Andrés Bravo Torres</h1>
-        <p><strong>Correo electrónico:</strong> bravo9386@gmailcom</p>
-        <p><strong>Teléfono:</strong> +506 70463777</p>
-        <p><strong>Dirección:</strong> 1km oeste del Liceo San Carlos, Ciudad Quesada, Costa Rica</p>
-      </div>
-      <div class="col-md-6">
-        <h2 class="mb-4">Educación</h2>
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Diplomado en ingeneria en tecnologías de información</h5>
-            <p class="card-text">UTN, 2024</p>
-          </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="mb-4">Carlos Andrés Bravo</h1>
+                <p><strong>Correo electrónico:</strong> bravo9386@gmailcom</p>
+                <p><strong>Teléfono:</strong> +506 70463777</p>
+                <p><strong>Dirección:</strong> 1km oeste del Liceo San Carlos, Ciudad Quesada, Costa Rica</p>
+            </div>
+            <div class="col-md-6">
+                <h2 class="mb-4 section-title">Educación</h2>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Diplomado en ingeneria en tecnologías de información</h5>
+                        <p class="card-text">UTN, 2024</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="row mt-4">
-      <div class="col-md-12">
-        <h2 class="mb-4">Experiencia Laboral</h2>
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Intelec</h5>
-            <p class="card-text">Asistente, 2021 - 2023</p>
-            <p>Vendedor - Antención al cliente</p>
-          </div>
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <h2 class="mb-4 section-title">Experiencia Laboral</h2>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Intelec</h5>
+                        <p class="card-text">Asistente, 2021 - 2023</p>
+                        <p class="card-text">Vendedor - Antención al cliente</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <h2 class="mb-4 section-title">Herramientas de sofware</h2>
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">Lenguaje python</p>
+                        <p class="card-text">Lenguaje Java</p>
+                        <p class="card-text">HTML, C++, JS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <h2 class="mb-4 section-title">Idiomas</h2>
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">Español - Nativo</p>
+                        <p class="card-text">Inglés - Intermedio</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="row mt-4">
-      <div class="col-md-12">
-        <h2 class="mb-4">Herramientas de sofware</h2>
-        <ul class="list-group">
-          <li class="list-group-item">Lenguaje python</li>
-          <li class="list-group-item">Lenguaje Java</li>
-          <li class="list-group-item">HTML, C++, JS</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
