@@ -1,0 +1,115 @@
+.section {
+  padding: 8rem 0 7rem;
+  text-align: center;
+}
+
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+.button {
+  border-radius: 100px;
+}
+
+.phone {
+  position: relative;
+  max-width: 80%;
+  margin: 3rem auto -12rem;
+}
+
+.phone+.phone {
+  display: none;
+}
+
+.values {
+  background-image: url('images/Green.jpg');
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+
+.value-multiplier {
+  margin-bottom: .5rem;
+  color: #0bebd1;
+}
+
+.value-heading {
+  margin-bottom: .3rem;
+}
+
+.value-description {
+  opacity: .8;
+  font-weight: 300;
+}
+
+.categories {
+  background-image: url('images/Green.jpg');
+  background-size: cover;
+  color: #fff;
+}
+
+@media (min-width: 550px) {
+  .section {
+    padding: 12rem 0 11rem;
+  }
+
+  .phone {
+    position: absolute;
+    top: -7rem;
+    right: 3rem;
+    max-height: 360px;
+    z-index: 3;
+  }
+
+  .phone+.phone {
+    top: -6rem;
+    display: block;
+    max-width: 75%;
+    right: 0;
+    z-index: 2;
+    max-height: 340px;
+  }
+}
+
+@media (min-width: 750px) {
+  .section {
+    padding: 14rem 0 15rem;
+  }
+
+  .section-description {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .phone {
+    top: -14rem;
+    right: 5rem;
+    max-height: 510px;
+  }
+
+  .phone+.phone {
+    top: -12rem;
+    max-height: 480px;
+  }
+
+  .categories {
+    padding: 15rem 0 8rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .section {
+    padding: 20rem 0 19rem;
+  }
+
+  .phone {
+    top: -16rem;
+    max-height: 615px;
+  }
+
+  .phone+.phone {
+    top: -14rem;
+    max-height: 570px;
+  }
+}
